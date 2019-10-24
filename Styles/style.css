@@ -1,0 +1,150 @@
+:root {
+    --coral: #DB595C;
+    --blue-greem: #2C6565;
+    --cream: #FCF6D9;
+    --tan: #DDC094;
+    --black: #150101;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#welcome-section h1{
+    font-size: 4rem;
+    margin: .5rem;
+}
+#welcome-section h2{
+    margin: 0;
+    font-size: 2rem;
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    height: 3.75rem;
+    background: var(--coral);
+    width: 100%;
+}
+
+#navlist {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-right: 1rem;
+}
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+nav ul li a {
+    text-decoration: none;
+    Color: var(--cream);
+    padding: 1.20rem 1.5rem;
+}
+#navlist a:hover{
+    background: var(--blue-greem);
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--tan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+#projects{
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C6565;
+    color: var(--cream);
+
+}
+
+#projects h2{
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 0 auto;
+    margin-bottom: 6rem;
+}
+.project-tile{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--cream);
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#starWarsPoster {
+    height: 320px;
+    width: auto;
+}
+
+#contact { 
+    background-color: var(--cream);
+    bottom: 0;
+    padding: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-head{
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+#contact-head h1{
+    margin: 0;
+}
+
+#contact-links{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+#contact-links a{
+    padding: 3rem;
+    text-decoration: none;
+    color: var(--black);
+    
+}
+footer {
+    padding: .5rem 2%;
+    text-align: center;
+    background-color: var(--tan);
+}
+
+@media (max-width: 75em) {
+    html{
+        font-size: 80%;
+    }
+}
+@media (max-width: 28.75em) {
+    html{
+        font-size: 80%;
+    }
+}
+@media (max-width: 28.75em) {
+    html{
+        font-size:80%;
+    }
+}
